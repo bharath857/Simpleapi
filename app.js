@@ -3,7 +3,7 @@ var app= express();             //get express lib and invoke it
 
 var port= process.env.PORT || 2000;// universal port  while uploading to server or local port
 
-//app.set('port',process.env.PORT||3000);
+//app.set('port',process.env.PORT||2000);
 
 var mongoose = require('mongoose');// get mongoose lib
 var config= require('./config/index'); //get the mongodb database url or login id.
